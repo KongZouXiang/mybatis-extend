@@ -7,6 +7,29 @@
     <groupId>org.k</groupId>
     <artifactId>mybatis-extend</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <!-->开发者的信息<-->
+    <developers>
+        <developer>
+            <name>KongZouXiang</name>
+            <email>271066981@qq.com</email>
+        </developer>
+    </developers>
+
+    <!-->项目的版本管理地址<-->
+    <scm>
+        <url>https://github.com/KongZouXiang/mybatis-extend</url>
+    </scm>
+    <distributionManagement>
+        <repository>
+            <id>snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
     <dependencies>
         <dependency>
             <groupId>org.mybatis</groupId>
